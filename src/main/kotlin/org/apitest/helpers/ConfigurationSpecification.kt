@@ -3,8 +3,7 @@ package org.apitest.helpers
 import org.apitest.property.SchipholAPIProperties
 
 /**
- * Class containing methods to return configuration parameters based on gradle property input
- * If gradle property regarding environment is not input, returning configuration parameters stated in resource config file
+ * Class containing methods to return configuration parameters
  */
 open class ConfigurationSpecification {
 

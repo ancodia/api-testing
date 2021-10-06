@@ -18,7 +18,7 @@ open class TestBase {
         lateinit var requestSpecification: RequestSpecification
 
         /**
-         * set project configurations
+         * setup configuration
          */
         @BeforeAll
         @JvmStatic

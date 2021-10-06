@@ -22,6 +22,7 @@ class SchipholAPITest : SchipholAPI() {
         val body = getRequest(requestSpecification,
             DESTINATIONS_ENDPOINT,
             HttpStatus.SC_OK)
+        // map JSON response to modelling data classes
         val destinations = gson.fromJson(body, Destinations::class.java).destinations
         // sort destinations by country
         val sortedDestinations: List<Destination> = destinations.sortedWith(compareBy { it.country })
@@ -67,7 +68,6 @@ class SchipholAPITest : SchipholAPI() {
             FLIGHTS_ENDPOINT,
             HttpStatus.SC_OK)
         val flights = gson.fromJson(body, Flights::class.java).flights
-        println(flights)
 
         // display flight details and check that IATA code is present
         flights.forEach { flight ->
