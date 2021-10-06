@@ -26,3 +26,5 @@ Windows (untested):
 ```
 gradlew.bat :schiphol
 ```
+
+Note: https://github.com/dilshan5/sample_kotlin was used as a starting point
