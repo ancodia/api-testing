@@ -1,0 +1,5 @@
+base_url: api.schiphol.nl
+accept: application/json
+app_id: 8f177544
+app_key: 6f5a5a630c07e77c195fa4d0d4fee7d3
+resource_version: v4
