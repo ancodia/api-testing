@@ -4,7 +4,7 @@ Project containing test cases for the Schiphol API (https://api.schiphol.nl) wri
 
 ## Description
 ### Configuration
-Configuration files are stored in [`src/main/resources`](src/main/resources) and the [`ConfigurationSpecification`](src/main/kotlin/org/apitest/helpers/ConfigurationSpecification.kt) class is used to read from them.
+Configuration files are stored in [`src/main/resources`](src/main/resources) and the [`ConfigurationSpecification`](src/main/kotlin/org/apitest/helper/ConfigurationSpecification.kt) class is used to read from them.
 
 For Schiphol API properties, the [`SchipholAPIProperties`](src/main/kotlin/org/apitest/property/SchipholAPIProperties.kt) data class is populated with the above approach.
 

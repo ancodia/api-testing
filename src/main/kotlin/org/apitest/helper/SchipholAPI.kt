@@ -1,4 +1,4 @@
-package org.apitest.helpers
+package org.apitest.helper
 
 import io.restassured.module.kotlin.extensions.Extract
 import io.restassured.module.kotlin.extensions.Given

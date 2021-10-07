@@ -1,4 +1,4 @@
-package org.apitest.helpers
+package org.apitest.helper
 
 import io.restassured.RestAssured
 import io.restassured.builder.RequestSpecBuilder

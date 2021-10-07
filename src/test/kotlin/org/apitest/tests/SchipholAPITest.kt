@@ -4,8 +4,8 @@ import com.google.gson.Gson
 import org.apache.http.HttpStatus
 import org.apitest.model.Destinations
 import org.apitest.model.Flights
-import org.apitest.helpers.CommonConstants
-import org.apitest.helpers.SchipholAPI
+import org.apitest.helper.CommonConstants
+import org.apitest.helper.SchipholAPI
 import org.apitest.model.Destination
 import org.junit.jupiter.api.*
 import org.junit.jupiter.api.Assertions.assertTrue

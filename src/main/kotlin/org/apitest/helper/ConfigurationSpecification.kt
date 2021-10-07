@@ -1,4 +1,4 @@
-package org.apitest.helpers
+package org.apitest.helper
 
 import org.apitest.property.SchipholAPIProperties
 

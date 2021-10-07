@@ -1,4 +1,4 @@
-package org.apitest.helpers
+package org.apitest.helper
 
 /**
  * Class containing common variable objects

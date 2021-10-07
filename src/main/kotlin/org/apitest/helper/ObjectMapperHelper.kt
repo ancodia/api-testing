@@ -1,4 +1,4 @@
-package org.apitest.helpers
+package org.apitest.helper
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory
