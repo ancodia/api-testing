@@ -53,7 +53,7 @@ class SchipholAPITest : SchipholAPI() {
             it.country == "Australia"
         }
 
-        for (destination in filteredDestinations) {
+        filteredDestinations.forEach { destination ->
             val iata = destination.iata
             val city: String? = destination.city
             assertTrue(iata.isNotEmpty(), "Failed to find IATA in $destination")
