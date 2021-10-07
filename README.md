@@ -23,7 +23,7 @@ Test cases are executed with JUnit and can be found in the [`SchipholAPITest`](s
 ## Steps to run
 Requirements: 
 - Java 11 SDK (https://openjdk.java.net/install/)
-- gradle (https://gradle.org/install/)
+- gradle (https://gradle.org/install/) ' v7.2 used for development
 
 Clone repository:
 ```
